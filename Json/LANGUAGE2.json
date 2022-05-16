@@ -6,6 +6,8 @@
         "or":"ou",
         "Import_Acount":"Importar Conta Existente"
     },
+
+   
     "recover-account":{
         "privacy":"Please make sure you are visiting https://wallet.near.org",
         "title":"Importar conta",
@@ -25,8 +27,7 @@
         "ledger-content":"Certifique-se de que sua Ledger está conectada com segurança e que o aplicativo NEAR está aberto no dispositivo.",
         "sign in with ledger":"Login com Ledger"
 
-    },
-    "recover-seed-phrase":{
+    },  "recover-seed-phrase":{
         "title":"Recuperar usando Frase-semente",
         "about":"Digite a frase-semente de backup associada à conta.",
         "passphrase":"Frase-semente (12 palavras)",

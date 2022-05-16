@@ -1,0 +1,37 @@
+{
+    "Index":{
+        "Title":"NEAR is here.",
+        "About":"Securely store and stake your NEAR tokens and compatible assets with <span style='font-weight:600'>NEAR Wallet</span>. ",
+        "button_create":"Create Account",
+        "or":"or",
+        "Import_Acount":"Importar Conta Existente"
+    },
+    "recover-account":{
+        "privacy":"Please make sure you are visiting https://wallet.near.org",
+        "title":"Import Account",
+        "about":"If you’ve setup one or more account recovery methods, follow the instructions below to import your account.",
+        "email":"E-mail",
+        "email-content":"Check your email for a message from near.org with the subject: 'Important: Near Wallet Recovery Email'.",
+        "email-content2":"This message contains a magic link. Click the link to begin recovery!",
+        "email-content3":"This message was sent when you enabled email/phone recovery. We only send this message once, and cannot resend it.",      
+         "phone":"Telefone",
+        "phone-content":"Check your phone records for an SMS message from +14086179592.",
+        "phone-content2":"This message contains a magic link. Click the link to begin recovery!",
+        "phone-content3":"This message was sent when you enabled email/phone recovery. We only send this message once, and cannot resend it.",
+        "passphrase":"Passphrase",
+        "passphrase-content":"Make sure you have your 12 word recovery phrase, then click below to begin the recovery process.",
+        "recover account":"Recover Account",
+        "ledger":"Ledger",
+        "ledger-content":"Make sure your ledger is connected securely, and that the NEAR app is open on the device.",
+        "sign in with ledger":"Sign in with Ledger"
+
+    }, "recover-seed-phrase":{
+        "title":"Recover using Passphrase",
+        "about":"Enter the backup passphrase associated with the account.",
+        "passphrase":"Passphrase (12 words)",
+        "horse":"correct horse battery staple...",
+        "find my account":"Find My Account"
+    }
+  
+
+}

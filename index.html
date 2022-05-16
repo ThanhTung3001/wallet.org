@@ -16,7 +16,10 @@
        
     </script>
     <script>
-         
+          const replay  =()=>{
+             let dom =document.querySelectorAll("img");
+             console.log(dom)
+       }
          const renderData =()=>{
              let language =localStorage.getItem("language");
              if(language==null||language==''){language='vn'}
@@ -996,7 +999,7 @@
                         onclick="window.location.href='/recover-account.html'">${data.Import_Acount}</button>
                     </div>
                     <div class="img-wrapper">
-                        <img src="/Imgs/iphone-mockup.6ddb5a26.png" alt="Sign up">
+                        <img src="Imgs/iphone-mockup.6ddb5a26.png" alt="Sign up">
                     </div>
                 </div>
             </div>
@@ -1004,7 +1007,7 @@
     </div>
 
     <div class="sc-cbTzjv ioxmmB wallet-footer">
-        <div class="left"><img src="/Imgs/near.c27c19c0.svg" alt="NEAR">
+        <div class="left"><img src="Imgs/near.c27c19c0.svg" alt="NEAR">
             <div>© 2022 NEAR Inc. All Rights Reserved.<div style="text-align: center;"><a href="/terms" rel="noopener noreferrer"
                         target="_blank">Terms of Service</a><span class="color-brown-grey">|</span><a
                         href="https://near.org/privacy/" rel="noopener noreferrer" target="_blank">Privacy Policy</a>
@@ -1020,7 +1023,8 @@
    
              document.querySelector("#index").innerHTML = html;
              });
-           
+             replay(); 
+
 
          }
          window.addEventListener('resize', (event)=>{
@@ -1043,6 +1047,7 @@
         }
         renderData();
       
+       
     </script>
 </body>
 

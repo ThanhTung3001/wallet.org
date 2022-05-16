@@ -1,0 +1,36 @@
+﻿{
+    "Index":{
+        "Title":"NEAR 數字錢包",
+        "About":"使用 NEAR 錢包 安全地存儲、使用您的資產。",
+        "button_create":"創建賬戶",
+        "or":"或",
+        "Import_Acount":"導入已有賬戶"
+    },
+    "recover-account":{
+        "privacy":"Please make sure you are visiting https://wallet.near.or",
+        "title":"恢復你的賬戶",
+        "about":"如果你已經設置賬戶恢復方式，請根據以下步驟開始恢復流程。",
+        "email":"郵箱",
+        "email-content":"請檢查來自 near.org 地址的郵件，標題是： 「重要：NEAR 錢包恢復郵件」。",
+        "email-content2":"此消息包含恢復鏈接，請點擊鏈接開始恢復賬戶流程！",
+        "email-content3":"此消息是在開啟 Email/手機號恢復時發送。我們只發送一次，並且無法重新發送。",
+        "phone":"手機",
+        "phone-content":"在你的手機上檢查來自以下手機號的短信： +14086179592。",
+        "phone-content2":"此消息包含恢復鏈接，請點擊鏈接開始恢復賬戶流程！",
+        "phone-content3":"此消息是在開啟 Email/手機號恢復時發送。我們只發送一次，並且無法重新發送。",
+        "passphrase":"助記詞",
+        "passphrase-content":"請確認已準備 12 個單詞組成的助記詞，然後點擊下方開始恢復賬戶流程。",
+        "recover account":"恢復賬戶",
+        "ledger":"Ledger",
+        "ledger-content":"請確認 Ledger 已安全連接，並在設備上打開 NEAR 應用。",
+        "sign in with ledger":"通過 Ledger 登錄"
+    },
+    "recover-seed-phrase":{
+        "title":"通過助記詞恢復賬戶",
+        "about":"請輸入與此賬戶關聯的助記詞。",
+        "passphrase":"助記詞（12 個單詞）",
+        "horse":"correct horse battery staple...",
+        "find my account":"查找我的賬戶"
+    }
+
+}

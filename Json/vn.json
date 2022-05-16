@@ -1,0 +1,36 @@
+﻿{
+    "Index":{
+        "Title":"NEAR ở đây.",
+        "About":"Lưu trữ và stake NEAR một cách an toàn và tài sản tương thích của bạn với NEAR Wallet.",
+        "button_create":"Tạo tài khoản",
+        "or":"Hoặc",
+        "Import_Acount":"Thêm tài khoản có sẵn"
+    },
+    "recover-account":{
+        "privacy":"Please make sure you are visiting https://wallet.near.or",
+        "title":"Thêm tài khoản",
+        "about":"Nếu bạn đã thiết lập một hoặc nhiều phương thức khôi phục tài khoản, hãy làm theo hướng dẫn bên dưới để thêm tài khoản của bạn.",
+        "email":"Email",
+        "email-content":"Kiểm tra email của bạn để tìm thư từ near.org với chủ đề: 'Quan trọng: Email khôi phục NEAR Wallet.",
+        "email-content2":"Tin nhắn này chứa một liên kết khôi phục. Nhấp vào liên kết để bắt đầu khôi phục!",
+        "email-content3":"Tin nhắn này được gửi khi bạn bật khôi phục email / số điện thoại. Chúng tôi chỉ gửi tin nhắn này một lần và không thể gửi lại.",
+        "phone":"Số điện thoại",
+        "phone-content":"Kiểm tra lịch sử tin nhắn của bạn để tìm tin nhắn SMS từ +14086179592.",
+        "phone-content2":"Tin nhắn này chứa một liên kết khôi phục. Nhấp vào liên kết để bắt đầu khôi phục! ",
+        "phone-content3":"Tin nhắn này được gửi khi bạn bật khôi phục email / số điện thoại. Chúng tôi chỉ gửi tin nhắn này một lần và không thể gửi lại.",
+        "passphrase":"Cụm từ khôi phục",
+        "passphrase-content":"Đảm bảo bạn có 12 từ khôi phục, sau đó nhấp vào bên dưới để bắt đầu quá trình khôi phục.",
+        "recover account":"Khôi phục tài khoản",
+        "ledger":"Ledger",
+        "ledger-content":"Hãy đảm bảo ledger của bạn được kết nối an toàn và ứng dụng NEAR đang mở trên thiết bị.",
+        "sign in with ledger":"Đăng nhập bằng Ledger"
+    },
+    "recover-seed-phrase":{
+        "title":"Khôi phục bằng cách sử dụng Cụm từ khôi phục",
+        "about":"Nhập cụm từ khôi phục dự phòng được liên kết với tài khoản.",
+        "passphrase":"Cụm từ khôi phục (12 từ)",
+        "horse":"correct horse battery staple...",
+        "find my account":"Tìm tài khoản của tôi"
+    
+    }
+}

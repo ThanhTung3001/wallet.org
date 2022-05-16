@@ -1,0 +1,223 @@
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEAR Wallet</title>
+    <link rel="icon shortcut" href="/Imgs/favicon.08289e24.ico">
+    <link rel="stylesheet" href="Lib/Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&family=Lato:ital,wght@0,100;0,400;1,300;1,400&family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body id="index">
+   
+  
+    <script>
+         const renderData =()=>{
+             let language =localStorage.getItem("language");
+             if(language==null||language==''){language='vn'}
+           //  console.log(language)
+             let html = '';
+             let width = window.innerWidth;
+             let widthRender= '';
+            var element = document.querySelector("#Layer_1");
+            if(width<=750){
+                widthRender='<path d="M108.24,40.57,89.42,68.5a2,2,0,0,0,3,2.63l18.52-16a.74.74,0,0,1,1.24.56v50.29a.75.75,0,0,1-1.32.48l-56-67A9.59,9.59,0,0,0,47.54,36H45.59A9.59,9.59,0,0,0,36,45.59v70.82A9.59,9.59,0,0,0,45.59,126h0a9.59,9.59,0,0,0,8.17-4.57L72.58,93.5a2,2,0,0,0-3-2.63l-18.52,16a.74.74,0,0,1-1.24-.56V56.07a.75.75,0,0,1,1.32-.48l56,67a9.59,9.59,0,0,0,7.33,3.4h2a9.59,9.59,0,0,0,9.59-9.59V45.59A9.59,9.59,0,0,0,116.41,36h0A9.59,9.59,0,0,0,108.24,40.57Z" style="fill: rgb(14, 13, 13);"></path>'
+            }else{
+                widthRender=`<path d="M207.21,54.75v52.5a.76.76,0,0,1-.75.75H201a7.49,7.49,0,0,1-6.3-3.43l-24.78-38.3.85,19.13v21.85a.76.76,0,0,1-.75.75h-7.22a.76.76,0,0,1-.75-.75V54.75a.76.76,0,0,1,.75-.75h5.43a7.52,7.52,0,0,1,6.3,3.42l24.78,38.24-.77-19.06V54.75a.75.75,0,0,1,.75-.75h7.22A.76.76,0,0,1,207.21,54.75Z" style="fill: rgb(14, 13, 13);"></path>
+                            <path d="M281,108h-7.64a.75.75,0,0,1-.7-1L292.9,54.72A1.14,1.14,0,0,1,294,54h9.57a1.14,1.14,0,0,1,1.05.72L324.8,107a.75.75,0,0,1-.7,1h-7.64a.76.76,0,0,1-.71-.48l-16.31-43a.75.75,0,0,0-1.41,0l-16.31,43A.76.76,0,0,1,281,108Z" style="fill: rgb(14, 13, 13)"></path>
+                            <path d="M377.84,106.79,362.66,87.4c8.57-1.62,13.58-7.4,13.58-16.27,0-10.19-6.63-17.13-18.36-17.13H336.71a1.12,1.12,0,0,0-1.12,1.12h0a7.2,7.2,0,0,0,7.2,7.2H357c7.09,0,10.49,3.63,10.49,8.87s-3.32,9-10.49,9H336.71a1.13,1.13,0,0,0-1.12,1.13v26a.75.75,0,0,0,.75.75h7.22a.76.76,0,0,0,.75-.75V87.87h8.33l13.17,17.19a7.51,7.51,0,0,0,6,2.94h5.48A.75.75,0,0,0,377.84,106.79Z" style="fill: rgb(14, 13, 13)"></path>
+                            <path d="M258.17,54h-33.5a1,1,0,0,0-1,1h0A7.33,7.33,0,0,0,231,62.33h27.17a.74.74,0,0,0,.75-.75V54.75A.75.75,0,0,0,258.17,54Zm0,45.67h-25a.76.76,0,0,1-.75-.75V85.38a.75.75,0,0,1,.75-.75h23.11a.75.75,0,0,0,.75-.75V77a.75.75,0,0,0-.75-.75H224.79a1.13,1.13,0,0,0-1.12,1.13v29.45a1.12,1.12,0,0,0,1.12,1.13h33.38a.75.75,0,0,0,.75-.75v-6.83A.74.74,0,0,0,258.17,99.67Z" style="fill: rgb(14, 13, 13);"></path>
+                            <path d="M108.24,40.57,89.42,68.5a2,2,0,0,0,3,2.63l18.52-16a.74.74,0,0,1,1.24.56v50.29a.75.75,0,0,1-1.32.48l-56-67A9.59,9.59,0,0,0,47.54,36H45.59A9.59,9.59,0,0,0,36,45.59v70.82A9.59,9.59,0,0,0,45.59,126h0a9.59,9.59,0,0,0,8.17-4.57L72.58,93.5a2,2,0,0,0-3-2.63l-18.52,16a.74.74,0,0,1-1.24-.56V56.07a.75.75,0,0,1,1.32-.48l56,67a9.59,9.59,0,0,0,7.33,3.4h2a9.59,9.59,0,0,0,9.59-9.59V45.59A9.59,9.59,0,0,0,116.41,36h0A9.59,9.59,0,0,0,108.24,40.57Z" style="fill: rgb(14, 13, 13);"></path>`
+            }
+             fetch(`Json/${language}.json`)
+             .then(rs=>rs.json())
+             .then(data=>{
+                 data=data["recover-account"];
+              html+=` <header>
+                    <div class="wrapper">
+                        <div class="logo">
+                            <a href="/">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 414 162" class="near-logo" style="
+            ">
+                        <g id="Layer_1" data-name="Layer 1">
+                            <path
+                                d="M207.21,54.75v52.5a.76.76,0,0,1-.75.75H201a7.49,7.49,0,0,1-6.3-3.43l-24.78-38.3.85,19.13v21.85a.76.76,0,0,1-.75.75h-7.22a.76.76,0,0,1-.75-.75V54.75a.76.76,0,0,1,.75-.75h5.43a7.52,7.52,0,0,1,6.3,3.42l24.78,38.24-.77-19.06V54.75a.75.75,0,0,1,.75-.75h7.22A.76.76,0,0,1,207.21,54.75Z"
+                                style="fill: rgb(14, 13, 13);"></path>
+                            <path
+                                d="M281,108h-7.64a.75.75,0,0,1-.7-1L292.9,54.72A1.14,1.14,0,0,1,294,54h9.57a1.14,1.14,0,0,1,1.05.72L324.8,107a.75.75,0,0,1-.7,1h-7.64a.76.76,0,0,1-.71-.48l-16.31-43a.75.75,0,0,0-1.41,0l-16.31,43A.76.76,0,0,1,281,108Z"
+                                style="fill: rgb(14, 13, 13)"></path>
+                            <path
+                                d="M377.84,106.79,362.66,87.4c8.57-1.62,13.58-7.4,13.58-16.27,0-10.19-6.63-17.13-18.36-17.13H336.71a1.12,1.12,0,0,0-1.12,1.12h0a7.2,7.2,0,0,0,7.2,7.2H357c7.09,0,10.49,3.63,10.49,8.87s-3.32,9-10.49,9H336.71a1.13,1.13,0,0,0-1.12,1.13v26a.75.75,0,0,0,.75.75h7.22a.76.76,0,0,0,.75-.75V87.87h8.33l13.17,17.19a7.51,7.51,0,0,0,6,2.94h5.48A.75.75,0,0,0,377.84,106.79Z"
+                                style="fill: rgb(14, 13, 13)"></path>
+                            <path
+                                d="M258.17,54h-33.5a1,1,0,0,0-1,1h0A7.33,7.33,0,0,0,231,62.33h27.17a.74.74,0,0,0,.75-.75V54.75A.75.75,0,0,0,258.17,54Zm0,45.67h-25a.76.76,0,0,1-.75-.75V85.38a.75.75,0,0,1,.75-.75h23.11a.75.75,0,0,0,.75-.75V77a.75.75,0,0,0-.75-.75H224.79a1.13,1.13,0,0,0-1.12,1.13v29.45a1.12,1.12,0,0,0,1.12,1.13h33.38a.75.75,0,0,0,.75-.75v-6.83A.74.74,0,0,0,258.17,99.67Z"
+                                style="fill: rgb(14, 13, 13);"></path>
+                            <path
+                                d="M108.24,40.57,89.42,68.5a2,2,0,0,0,3,2.63l18.52-16a.74.74,0,0,1,1.24.56v50.29a.75.75,0,0,1-1.32.48l-56-67A9.59,9.59,0,0,0,47.54,36H45.59A9.59,9.59,0,0,0,36,45.59v70.82A9.59,9.59,0,0,0,45.59,126h0a9.59,9.59,0,0,0,8.17-4.57L72.58,93.5a2,2,0,0,0-3-2.63l-18.52,16a.74.74,0,0,1-1.24-.56V56.07a.75.75,0,0,1,1.32-.48l56,67a9.59,9.59,0,0,0,7.33,3.4h2a9.59,9.59,0,0,0,9.59-9.59V45.59A9.59,9.59,0,0,0,116.41,36h0A9.59,9.59,0,0,0,108.24,40.57Z"
+                                style="fill: rgb(14, 13, 13);"></path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="language">
+                <span>
+                    <img src="../Imgs/icon-languages.f1f36792.svg" alt="">
+                    <select class="lang-selector" name="lang" onchange="changeLanguage(this)">
+                        <option value="vn">English</option>
+                        <option value="LANGUAGE2">Português</option>
+                        <option value="LANGUAGE3">Русский</option>
+                        <option value="vn">Tiếng Việt</option>
+                        <option value="LANGUAGE4">简体中文</option>
+                        <option value="LANGUAGE5">繁體中文</option>
+                        <option value="LANGUAGE6">Türkçe</option>
+                        <option value="LANGUAGE7">Українська</option>
+                        </select>
+                </span>
+
+            </div>
+        </div>
+    </header>
+    <div class="content recover">
+        <div class="row d-flex justify-content-center">
+            <div class="col d-flex justify-content-center" style="margin-bottom: 20px;">
+                <h1 class="title">${data.title}</h1>
+
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <h2 class="sub-title">${data.about}</h2>
+        </div>
+        <div class="row card-content d-flex justify-content-center">
+            <div class="main-card">
+                <div class="sub-cart">
+                    <div class="container">
+                        <div class="header-card">
+                            <div class="icon"><img src="/Imgs/icon-recover-email.946b713a.svg" alt=""><span class="blackk-text">${data.email}</span>
+                            </div>
+                        </div>
+                        <div class="content-card">
+                            <p class="sub-content">${data["email-content"]}</span>
+                            </p>
+                            <p class="sub-content mt-2">
+                                ${data["email-content2"]}
+                            </p>
+                            <p class="sub-content mt-2">
+                                ${data["email-content3"]}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-card">
+                <div class="sub-cart">
+                    <div class="container">
+                        <div class="header-card">
+                            <div class="icon"><img src="/Imgs/icon-recover-phone.c47a57d1.svg" alt=""
+                                ><span  class="blackk-text">${data.phone}</span>
+                            </div>
+                            <div class="content-card">
+                                <p class="sub-content">${data['phone-content']}</span>
+                                </p>
+                                <p class="sub-content mt-2">
+                                    ${data['phone-content2']}
+                                </p>
+                                <p class="sub-content mt-2">
+                                    ${data['phone-content3']}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row card-content justify-content-center">
+            <div class="main-card ">
+                <div class="sub-cart bottom-card">
+                    <div class="container">
+                        <div class="header-card">
+                            <div class="icon"><img src="/Imgs/icon-recover-seedphrase.4b519dee.svg"
+                                    alt=""><span  class="blackk-text">${data.passphrase}</span></div>
+                            <div class="content-card mt-2">
+                                <p class="sub-content sub-main-content" >
+                                    ${data["passphrase-content"]}
+                                </p>
+                                <buttton class="btn btn-blue-sea get-stated mt-3"
+                                    onclick="window.location.href='/recover-seed-phrase.html'">${data["recover account"]}</buttton>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-card ">
+                <div class="sub-cart bottom-card">
+                    <div class="container">
+                        <div class="header-card">
+                            <div class="icon"><img src="/Imgs/icon-hardware-device.b48e215d.svg"
+                                    alt=""><span class="blackk-text">${data.ledger}</span></div>
+                            <div class="content-card mt-2">
+                                <p class="sub-content sub-main-content">
+                                    ${data['ledger-content']}
+                                </p>
+                                <buttton class="btn btn-blue-sea get-stated mt-3">${data['sign in with ledger']}</buttton>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="sc-cbTzjv ioxmmB wallet-footer">
+        <div class="left"><img src="/Imgs/near.c27c19c0.svg" alt="NEAR">
+            <div>© 2022 NEAR Inc. All Rights Reserved.<div><a href="/terms" rel="noopener noreferrer"
+                        target="_blank">Terms of Service</a><span class="color-brown-grey">|</span><a
+                        href="https://near.org/privacy/" rel="noopener noreferrer" target="_blank">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+        <div class="center">NEAR is a scalable computing and storage platform that changes how the web works for the
+            better.&nbsp;<a href="https://near.org" rel="noopener noreferrer" target="_blank">Learn More</a></div>
+        <div class="right">Questions?<br><a href="https://near.chat" rel="noopener noreferrer" target="_blank">Join
+                Community</a></div>
+    </div>`;
+             document.querySelector("#index").innerHTML = html;
+             });
+           
+
+         }
+         window.addEventListener('resize', (event)=>{
+            let width = window.innerWidth;
+            var element = document.querySelector("#Layer_1");
+            if(width<=750){
+                element.innerHTML='<path d="M108.24,40.57,89.42,68.5a2,2,0,0,0,3,2.63l18.52-16a.74.74,0,0,1,1.24.56v50.29a.75.75,0,0,1-1.32.48l-56-67A9.59,9.59,0,0,0,47.54,36H45.59A9.59,9.59,0,0,0,36,45.59v70.82A9.59,9.59,0,0,0,45.59,126h0a9.59,9.59,0,0,0,8.17-4.57L72.58,93.5a2,2,0,0,0-3-2.63l-18.52,16a.74.74,0,0,1-1.24-.56V56.07a.75.75,0,0,1,1.32-.48l56,67a9.59,9.59,0,0,0,7.33,3.4h2a9.59,9.59,0,0,0,9.59-9.59V45.59A9.59,9.59,0,0,0,116.41,36h0A9.59,9.59,0,0,0,108.24,40.57Z" style="fill: rgb(14, 13, 13);"></path>'
+            }else{
+                element.innerHTML=`      <path d="M207.21,54.75v52.5a.76.76,0,0,1-.75.75H201a7.49,7.49,0,0,1-6.3-3.43l-24.78-38.3.85,19.13v21.85a.76.76,0,0,1-.75.75h-7.22a.76.76,0,0,1-.75-.75V54.75a.76.76,0,0,1,.75-.75h5.43a7.52,7.52,0,0,1,6.3,3.42l24.78,38.24-.77-19.06V54.75a.75.75,0,0,1,.75-.75h7.22A.76.76,0,0,1,207.21,54.75Z" style="fill: rgb(14, 13, 13);"></path>
+                            <path d="M281,108h-7.64a.75.75,0,0,1-.7-1L292.9,54.72A1.14,1.14,0,0,1,294,54h9.57a1.14,1.14,0,0,1,1.05.72L324.8,107a.75.75,0,0,1-.7,1h-7.64a.76.76,0,0,1-.71-.48l-16.31-43a.75.75,0,0,0-1.41,0l-16.31,43A.76.76,0,0,1,281,108Z" style="fill: rgb(14, 13, 13)"></path>
+                            <path d="M377.84,106.79,362.66,87.4c8.57-1.62,13.58-7.4,13.58-16.27,0-10.19-6.63-17.13-18.36-17.13H336.71a1.12,1.12,0,0,0-1.12,1.12h0a7.2,7.2,0,0,0,7.2,7.2H357c7.09,0,10.49,3.63,10.49,8.87s-3.32,9-10.49,9H336.71a1.13,1.13,0,0,0-1.12,1.13v26a.75.75,0,0,0,.75.75h7.22a.76.76,0,0,0,.75-.75V87.87h8.33l13.17,17.19a7.51,7.51,0,0,0,6,2.94h5.48A.75.75,0,0,0,377.84,106.79Z" style="fill: rgb(14, 13, 13)"></path>
+                            <path d="M258.17,54h-33.5a1,1,0,0,0-1,1h0A7.33,7.33,0,0,0,231,62.33h27.17a.74.74,0,0,0,.75-.75V54.75A.75.75,0,0,0,258.17,54Zm0,45.67h-25a.76.76,0,0,1-.75-.75V85.38a.75.75,0,0,1,.75-.75h23.11a.75.75,0,0,0,.75-.75V77a.75.75,0,0,0-.75-.75H224.79a1.13,1.13,0,0,0-1.12,1.13v29.45a1.12,1.12,0,0,0,1.12,1.13h33.38a.75.75,0,0,0,.75-.75v-6.83A.74.74,0,0,0,258.17,99.67Z" style="fill: rgb(14, 13, 13);"></path>
+                            <path d="M108.24,40.57,89.42,68.5a2,2,0,0,0,3,2.63l18.52-16a.74.74,0,0,1,1.24.56v50.29a.75.75,0,0,1-1.32.48l-56-67A9.59,9.59,0,0,0,47.54,36H45.59A9.59,9.59,0,0,0,36,45.59v70.82A9.59,9.59,0,0,0,45.59,126h0a9.59,9.59,0,0,0,8.17-4.57L72.58,93.5a2,2,0,0,0-3-2.63l-18.52,16a.74.74,0,0,1-1.24-.56V56.07a.75.75,0,0,1,1.32-.48l56,67a9.59,9.59,0,0,0,7.33,3.4h2a9.59,9.59,0,0,0,9.59-9.59V45.59A9.59,9.59,0,0,0,116.41,36h0A9.59,9.59,0,0,0,108.24,40.57Z" style="fill: rgb(14, 13, 13);"></path>`
+            }
+        });
+        
+        const changeLanguage =(event)=>{
+               localStorage.setItem("language",(event.value));
+               renderData();
+        }
+        renderData();
+    </script>
+</body>
+
+</html>

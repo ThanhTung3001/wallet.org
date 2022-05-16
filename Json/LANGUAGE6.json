@@ -1,0 +1,35 @@
+﻿{
+    "Index":{
+        "Title":"NEAR burada.",
+        "About":"NEAR Cüzdan ile NEAR tokenlerinizi ve uyumlu varlıklarınızı güvende tutup katılım sağlayarak kazanın.",
+        "button_create":"Hesap Oluştur",
+        "or":"veya",
+        "Import_Acount":"Mevcut Hesabı İçe Aktar"
+    },
+    "recover-account":{
+        "privacy":"Please make sure you are visiting https://wallet.near.or",
+        "title":"Hesabı İçe Aktar",
+        "about":"Bir veya daha fazla hesap kurtarma yöntemi kurduysanız, hesabınızı içe aktarmak için aşağıdaki talimatları izleyin.",
+        "email":"Email",
+        "email-content":"E-postanızda near.org'dan konuyla ilgili bir mesaj olup olmadığını kontrol edin: 'Important: Near Wallet Recovery Email'.",
+        "email-content2":"Bu mesaj sihirli bir bağlantı içerir. Kurtarmaya başlamak için bağlantıya tıklayın!",
+        "email-content3":"Bu mesaj, e-posta/telefon kurtarma özelliğini etkinleştirdiğinizde gönderildi. Bu mesaj yalnızca bir kez gönderilir ve tekrar gönderilemez.",
+        "phone":"Telefon",
+        "phone-content":"Numaradan gelen SMS mesajını kontrol edin +14086179592.",
+        "phone-content2":"Bu mesaj sihirli bir bağlantı içerir. Kurtarmaya başlamak için bağlantıya tıklayın!",
+        "phone-content3":"Bu mesaj, e-posta/telefon kurtarma özelliğini etkinleştirdiğinizde gönderildi. Bu mesaj yalnızca bir kez gönderilir ve tekrar gönderilemez.",
+        "passphrase":"Anahtar Kelimeler",
+        "passphrase-content":"12 kelimelik kurtarma sözcüklerinizi yanınızda bulunduğundan emin olun, ardından kurtarma işlemine başlamak için aşağıya tıklayın.",
+        "recover account":"Hesabı Kurtar",
+        "ledger":"Ledger",
+        "ledger-content":"Ledger'in güvenli bir şekilde bağlandığından ve cihazda NEAR uygulamasının açık olduğundan emin olun.",
+        "sign in with ledger":"Ledger ile Oturum aç"
+    },
+    "recover-seed-phrase":{
+        "title":"Anahtar Kelimeleri kullanarak kurtar",
+        "about":"Hesapla ilişkilendirilmiş olan anahtar kelimelerinizi giriniz.",
+        "passphrase":"Anahtar Kelime (12 Kelime)",
+        "horse":"correct horse battery staple...",
+        "find my account":"Hesabımı Bul"
+    }
+}

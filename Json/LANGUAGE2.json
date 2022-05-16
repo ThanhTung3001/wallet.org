@@ -1,0 +1,37 @@
+﻿{
+    "Index":{
+        "Title":"NEAR está aqui.",
+        "About":"Armazene e stake com segurança seus tokens NEAR e ativos compatíveis com a ",
+        "button_create":"Criar Conta",
+        "or":"ou",
+        "Import_Acount":"Importar Conta Existente"
+    },
+    "recover-account":{
+        "privacy":"Please make sure you are visiting https://wallet.near.org",
+        "title":"Importar conta",
+        "about":"Se você configurou um ou mais métodos de recuperação de conta, siga as instruções abaixo para importar sua conta.",
+        "email":"E-mail",
+        "email-content":"Verifique seu e-mail para uma mensagem de near.org com o assunto: 'Important: Near Wallet Recovery Email'.",
+        "email-content2":"Esta mensagem contém um link mágico. Clique no link para começar a recuperação!",
+        "email-content3":"Esta mensagem foi enviada quando você ativou a recuperação de e-mail/telefone. Somente enviamos esta mensagem uma vez e não podemos reenviá-la.",      
+         "phone":"Telefone",
+        "phone-content":"Verifique o registro de seu telefone para uma mensagem SMS de +14086179592.",
+        "phone-content2":"Esta mensagem contém um link mágico. Clique no link para começar a recuperação!",
+        "phone-content3":"Esta mensagem foi enviada quando você ativou a recuperação de e-mail/telefone. Somente enviamos esta mensagem uma vez e não podemos reenviá-la.",
+        "passphrase":"Frase-semente",
+        "passphrase-content":"Certifique-se de que sua frase de recuperação contém 12 palavras e clique abaixo para iniciar o processo de recuperação.",
+        "recover account":"Recuperar Conta",
+        "ledger":"Login com Ledger",
+        "ledger-content":"Certifique-se de que sua Ledger está conectada com segurança e que o aplicativo NEAR está aberto no dispositivo.",
+        "sign in with ledger":"Login com Ledger"
+
+    },
+    "recover-seed-phrase":{
+        "title":"Recuperar usando Frase-semente",
+        "about":"Digite a frase-semente de backup associada à conta.",
+        "passphrase":"Frase-semente (12 palavras)",
+        "horse":"correct horse battery staple...",
+        "find my account":"Encontrar Minha Conta"
+    }
+
+}

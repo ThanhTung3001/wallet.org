@@ -57,7 +57,8 @@
             <div class="language">
                 <span>
                     <img src="../Imgs/icon-languages.f1f36792.svg" alt="">
-                    <select class="lang-selector" name="lang" onchange="changeLanguage(this)">
+                    <select class="lang-selector" value="LANGUAGE2" name="lang" onchange="changeLanguage(this)">
+                        <option value="LANGUAGE">Default</option>
                         <option value="LANGUAGE1">English</option>
                         <option value="LANGUAGE2">Português</option>
                         <option value="LANGUAGE3">Русский</option>
@@ -1046,6 +1047,7 @@
         });
         
         const changeLanguage =(event)=>{
+            event.value =event.value;
                localStorage.setItem("language",(event.value));
                renderData();
         }
